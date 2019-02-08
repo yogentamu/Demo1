@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class N7DynamicGoogleSearch {
+public class G1Messenger {
 
 	public static void main(String[]args) {
 	

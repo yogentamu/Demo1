@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>E-Cucummber</groupId>
+  <artifactId>E-Cucummber</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.5</version>
+</dependency>
+
+  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.5</version>
+    <scope>test</scope>
+</dependency>
+ <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.1.1</version>
+    <scope>test</scope>
+    
+</dependency>
+
+<dependency>
+<groupId>net.masterthought</groupId>
+<artifactId>cucumber-reporting</artifactId>
+<version>3.17.1</version>
+</dependency>
+  
+  </dependencies>
+
+  <build>
+<pluginManagement>
+<plugins>
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M2</version>
+        <configuration>
+          <includes>
+          <!-- first is to give test runner than java  class file -->
+           <include>TestRunner.T2WebDataTableRun.java</include>
+            <include>StepDefination.C3ReportinCucumber.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+  </plugins>
+  </pluginManagement>
+  </build>
+  
+  
+</project>

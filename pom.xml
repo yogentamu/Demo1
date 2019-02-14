@@ -59,7 +59,7 @@
         <configuration>
           <includes>
           <!-- first is to give test runner than java  class file -->
-           <include></include>
+           <include>G1Messenger.java</include>
            
           </includes>
         </configuration>

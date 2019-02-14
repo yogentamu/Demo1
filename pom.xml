@@ -53,7 +53,7 @@
 			          <version>3.0.0-M3</version>
 			           <configuration>
                               <includes>
-                                      <excludes>**/*.java</excludes>
+                                      <excludes>**/*G1Messenger.java</excludes>
                                </includes>
                        </configuration>    
                  

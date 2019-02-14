@@ -36,6 +36,13 @@
         <version>3.141.59</version>
     </dependency>  
   </dependencies>
+	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.2.0</version>
+</dependency>
+
    
   <build>
        <plugins>
@@ -54,7 +61,7 @@
 			          <version>3.0.0-M3</version>
 			           <configuration>
                               <includes>
-                                      <excludes>**/*.java</excludes>
+                                      <excludes>**/*G1Messenger.java</excludes>
                                </includes>
                        </configuration> 
                    </plugin>
